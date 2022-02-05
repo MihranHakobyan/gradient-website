@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+section {
+    padding: 3rem 7%;
+}
+
+body {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+}
+
+.btn {
+    border-radius: 4px;
+    background: #833ab4;
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+}
+
+header {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 7%;
+
+}
+
+header .logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+header .navbar a {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+header .navbar a:hover {
+    color: #833ab4;
+}
+
+header .navbar .sign {
+    padding: 10px 20px;
+
+}
+
+#bar {
+    display: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#bar:hover {
+    color: #833ab4;
+}
+
+
+/* home */
+#home {
+    height: 100vh;
+}
+
+#home .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#home .container h2 {
+    color: #fff;
+    font-size: 100px;
+    text-transform: none;
+    padding: 1rem;
+}
+
+#home .container h2 span {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: none;
+}
+
+#home .container p {
+    font-size: 60px;
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding-bottom: 1rem;
+}
+
+#home .container a {
+    margin-top: .5rem;
+    padding: .5rem 2rem;
+    transform: scale(1.5);
+}
+
+#home .container a:hover {
+    transform: scale(2);
+}
+
+#about {
+    background-color: #131313;
+    height: 100vh;
+    width: 100;
+}
+
+#about .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+
+#about .inner .image {
+    height: 100%;
+    width: 45%;
+}
+
+#about .inner .image i {
+    font-size: 10rem;
+    text-align: center;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .inner .content {
+    width: 45%;
+    height: 100%;
+}
+
+#about .inner .content h2 {
+    font-size: 2rem;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+#about .inner .content h3 {
+    font-size: 4rem;
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#about .inner .content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+#about .inner .content .btn {
+    font-size: 1.8rem;
+    padding: 20px 60px;
+    border-radius: 4px;
+    transition: all 0.8s;
+    box-shadow: inset 0px 0 0 0 #ff1ead;
+}
+
+#about .inner .content .btn:hover {
+    box-shadow: inset 310px 0 0 0 #ff1ead;
+}
+
+
+#services {
+    background: #131313;
+    height: 100%;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#services .inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+
+#services .inner .box {
+    height: 425px;
+    width: 270px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+
+}
+
+#services .inner .box:hover {
+    transform: scale(1.1);
+}
+
+#services .inner .box h3 {
+    font-size: 24px;
+}
+
+#services .inner .box p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+#services .inner .box a {
+    margin-top: 16px;
+    background: #000;
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#services .inner .box.n2 {
+    background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+}
+
+#services .inner .box.n3 {
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+}
+
+
+
+
+#sign-up {
+    background: #131313;
+}
+
+#sign-up .inner {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#sign-up .inner .content {
+    margin: 0 auto;
+    width: 48%;
+    height: 100%;
+    text-align: left;
+    margin: 1rem;
+}
+
+#sign-up .inner .image {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    color: #fff;
+    background-image: linear-gradient(to right,
+            #fa086d,
+            #ff1361,
+            #e97c16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up .inner .content h2 {
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    margin-bottom: 32px;
+}
+
+#sign-up .inner .content h3 {
+    font-size: 4rem;
+    background: linear-gradient(to right,
+            #8f0eff,
+            #da22ff);
+    margin-bottom: 1rem;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#sign-up .inner .content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#sign-up .inner .content a {
+    padding: 20px 60px;
+    box-shadow: inset 0 0 0 0 #ff1ead;
+    transition: all .8s;
+}
+
+#sign-up .inner .content a:hover {
+    box-shadow: inset 200px 0 0 0 #ff1ead;
+    border-radius: 4px;
+}
+
+#sign-up .inner .image div {
+    font-size: 14rem;
+}
+
+footer {
+    background: #131313;
+}
+
+footer .inner {
+    padding: 2rem 10rem;
+}
+
+footer .inner .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer .inner .links h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer .inner .links a {
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+footer .inner .links a:hover {
+    color: #ff1ead;
+}
+
+footer .inner .end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer .inner .end h2 {
+    font-weight: 400;
+}
+
+footer .inner .end p {
+    font-size: 1rem;
+}
+
+footer .inner .end p span {
+    font-size: 1.2rem;
+    background: linear-gradient(to right,
+            #fb5000d7,
+            #e42301d7,
+            #bb004e,
+            #eb04f3);
+    margin-bottom: 1rem;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+footer .inner .end p span:hover{
+    border-bottom: 1px solid #8f0eff;
+    padding-bottom: 3px;
+}
+footer .inner .end .icons a{
+    font-size: 1.5rem;
+    padding: 3px;
+    color: #fff;
+}
+footer .inner .end .icons .fa-instagram:hover{
+    background: linear-gradient(to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+footer .inner .end .icons .fa-facebook:hover{
+    color: #4267B2;
+}
+footer .inner .end .icons .fa-github:hover{
+    color: #555;
+}
+@media (max-width:768px) {
+    #bar {
+        display: inline-block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: -1000%;
+        background: #131313;
+        opacity: 1;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: 50vh;
+        padding: 2rem;
+        text-align: center;
+
+    }
+
+    header .navbar a {
+        display: block;
+        margin: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    header .navbar.active {
+        top: 100%;
+
+    }
+
+    #home .container h2 {
+        font-size: 70px;
+    }
+
+    #home .container p {
+        font-size: 40px;
+    }
+
+    #about .inner .image {
+        width: 100%;
+        height: 50%;
+    }
+
+    #about .inner .content {
+        width: 100%;
+        text-align: center;
+        height: 50%;
+    }
+
+    #about .inner .content h2 {
+        font-size: 1.5rem;
+    }
+
+    #about .inner .content h3 {
+        font-size: 3rem;
+    }
+
+    #about .inner .content p {
+        font-size: 1rem;
+    }
+
+    #about .inner .content .btn {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+
+    #sign-up .inner .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    #sign-up .inner .content h2 {
+        font-size: 1.5rem;
+    }
+
+    #sign-up .inner .content h3 {
+        font-size: 3rem;
+    }
+
+    #sign-up .inner .content p {
+        font-size: 1.5rem;
+    }
+
+    #sign-up .inner .image {
+
+        width: 350px;
+        height: 350px;
+    }
+
+    #sign-up .inner .image div {
+        font-size: 7rem;
+
+    }
+    footer .inner{
+        padding: 1rem 4%;
+    }
+    footer .inner .end{
+        display: block;
+        text-align: center;
+    }
+    footer .inner .end h2{
+        display: none;
+    }
+    footer .inner .end p{
+        font-size: .8rem;
+    }
+    footer .inner .end p span{
+        font-size: 1rem;
+        padding: 1px;
+    }
+
+footer .inner .end  a i{
+    font-size: 1rem;
+}
+}
+@media (max-width:550px) {
+    footer .inner .links .box h3{ 
+        font-size: 1.1rem;
+    }
+    footer .inner .links .box p{ 
+        font-size: .9rem;
+    }
+    footer .inner .end p{
+        font-size: .6rem;
+    }
+    footer .inner .end p span{
+        font-size: .8rem;
+        padding: 1px;
+    }
+}
+
+@media (max-width:450px) {
+    #home .container h2 {
+        font-size: 50px;
+    }
+
+    #home .container p {
+        font-size: 25px;
+    }
+    footer .inner .links .box h3{ 
+        font-size: 1rem;
+    }
+    footer .inner .links .box p{ 
+        font-size: .6rem;
+    }
+
+}
